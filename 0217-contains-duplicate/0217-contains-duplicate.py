@@ -4,6 +4,7 @@ class Solution(object):
         for i in nums:
             if i in dit:
                 return True
-            dit.add(i)
+            else:    
+             dit.add(i)
             
         return False 
