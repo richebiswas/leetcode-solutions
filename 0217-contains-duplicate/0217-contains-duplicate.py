@@ -3,8 +3,7 @@ class Solution(object):
         dit = set()
         for i in nums:
             if i in dit:
-                return True
-            else:    
-             dit.add(i)
+                return True   
+            dit.add(i)
             
         return False 
